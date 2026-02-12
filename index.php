@@ -137,7 +137,8 @@ if (isset($_GET['search'])) {
                 <button class="btn btn-light rounded-circle p-2">
                     <span class="material-icons text-secondary">notifications</span>
                 </button>
-                <img src="https://ui-avatars.com/api/?name=Admin&background=random" alt="Profile" class="avatar border">
+                <img src="https://www.google.com/imgres?q=student%20image&imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fthumbnails%2F051%2F688%2F995%2Fsmall%2Fsmiling-young-male-university-student-standing-isolate-on-transparency-background-png.png&imgrefurl=https%3A%2F%2Fwww.vecteezy.com%2Ffree-png%2Fstudent&docid=mqFww_YrUa5M5M&tbnid=dfOUuQuPr9tEHM&vet=12ahUKEwjVnf3smtOSAxUaS3ADHbRkCkgQnPAOegQILxAB..i&w=350&h=350&hcb=2&ved=2ahUKEwjVnf3smtOSAxUaS3ADHbRkCkgQnPAOegQILxAB"
+                    alt="Profile" class="avatar border">
             </div>
         </div>
     </nav>
@@ -204,7 +205,8 @@ if (isset($_GET['search'])) {
                                                 <div class="fw-bold text-dark"><?php echo htmlspecialchars($student['name']); ?>
                                                 </div>
                                                 <div class="small text-secondary">
-                                                    <?php echo htmlspecialchars($student['email']); ?></div>
+                                                    <?php echo htmlspecialchars($student['email']); ?>
+                                                </div>
                                             </div>
                                         </div>
                                     </td>
